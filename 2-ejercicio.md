@@ -10,7 +10,7 @@ La figura presenta el esquema creado en donde los puertos son:
 - b: (completar con el valor)
 - c: (completar con el valor)
 
-![Imagen](img/esquema-ejercicio3.PNG)
+![Imagen](img/esquema-2-ejercicio.PNG)
 
 ## Desde el cliente
 ### Acceder desde el cliente al servidor postgres creado.
