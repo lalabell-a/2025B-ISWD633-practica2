@@ -1,5 +1,5 @@
 ## Esquema para el ejercicio
-![Imagen](img/esquema-ejercicio5.PNG)
+![Imagen](esquema-4-ejercicio.PNG)
 
 ### Crear la red
 # COMPLETAR
