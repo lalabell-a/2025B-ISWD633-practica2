@@ -30,10 +30,5 @@ docker run -d --name <nombre contenedor> -e <nombre variable1>=<valor1> -e <nomb
 - Evitar Exposición en el Código: Mantener variables sensibles como contraseñas, claves API, y tokens fuera del código fuente reduce el riesgo de exposición accidental a través del control de versiones.
 - Control de Acceso: Los archivos de variables de entorno pueden ser gestionados con permisos específicos, limitando quién puede ver o modificar la configuración sensible.
 
-### Crear un contenedor con mysql, mapear todos los puertos y configurar las variables de entorno mediante un archivo
-# COMPLETAR
-
-# CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR 
-
 ### ¿Qué bases de datos existen en el contenedor creado?
 # COMPLETAR
