@@ -12,7 +12,7 @@ Las variables de entorno son utiles para pasar información considerada sensible
 
 ### Redes
    Lo principal hecho fue la creación de redes bridge personalizadas, conectar contenedores a estas redes y cómo los contenedores se comunican internamente. También que un contenedor puede pertenecer a dos de estas mismas, tal como pedía la imagen gracias a 'docker network connect net-curso02 contenedor3'. 
-   * Entendí la diferencia entre redes `bridge`, `host` y `none`, y cuándo usar cada una.
+   * Entendí la diferencia entre redes `bridge` (comunicación entre varios contenedores), `host`(máximo rendimiento de red, útil para escucha directa de un puerto de un servidor) y `none` (aislar red - contenedor.), y cuándo usar cada una.
 
 ### Datos y configuraciones
  Cuando intenté conectar pgAdmin con PostgreSQL, surgió un error de resolución de nombre (`Errno -2 Name does not resolve`). Al consultar con la IA al respecto, me recomendó crear una red personalizada en Docker, esto ayudó a una comunicación eficiente entre ambos contenedores y pude crear la base de datos. 
